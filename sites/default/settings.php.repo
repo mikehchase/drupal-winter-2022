@@ -770,13 +770,13 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'database',
-  'username' => 'user',
-  'password' => 'password',
-  'prefix' => 'prefix_',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
+    'database' => 'database',
+    'username' => 'user',
+    'password' => 'password',
+    'prefix' => 'prefix',
+    'host' => 'localhost',
+    'port' => '3306',
+    'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+    'driver' => 'mysql',  
 );
 #$settings['config_sync_directory'] = 'sites/default/files/config__96ufYq1xEDZcuu3h6Ofz-ck1PyJl3eqWO6ZR7dd-IZnH4G2bpq-VoDLZdiV3F1j-3DyRtxiAw/sync';
